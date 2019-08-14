@@ -1,7 +1,10 @@
 package validacao;
 
 public class validCPF {
-
+	/*
+	     Fonte de Pesquisa dev midia https://www.devmedia.com.br/validando-o-cpf-em-uma-aplicacao-java/22097
+	*/
+	
 	public static boolean isCPF(String CPF) {
 		
 		int peso = 10, num, soma = 0, divisao, digitoVerificador10, digitoVerificador11;
